@@ -16,6 +16,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  */
 function calculateHanoi(/* disksNumber, turnsSpeed */) {
   throw new NotImplementedError('Not implemented');
+  // Use recursion - each one disk from top adds 1 turn + previous top amount of turns to put it over new one
   // remove line with error and write your code here
 }
 
